@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(25, 25, 26);
+
+}
+header{
+  background-image: url(movie.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 110px 100px 110px 100px;
+}
+h1{
+  color: white;
+  letter-spacing: 2px;
+  font-size: 70px;
+}
+.movie-container{
+  display: block;
+  margin-top:100px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+video{
+  width: 750px;
+  cursor: pointer;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+button{
+  margin-top: 20px;
+  align-items: center;
+  cursor: pointer;
+}
