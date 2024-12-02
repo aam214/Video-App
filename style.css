@@ -8,6 +8,13 @@ header{
   background-size: cover;
   padding: 110px 100px 110px 100px;
 }
+.fa-solid{
+color:rgb(255, 193, 247);
+font-size: 20px;
+position: absolute;
+top: 330px;
+cursor: pointer;
+}
 h1{
   color: white;
   letter-spacing: 2px;
@@ -15,15 +22,17 @@ h1{
 }
 .movie-container{
   display: block;
-  margin-top:100px;
+  margin-top:200px;
   max-width: 700px;
   margin: 0 auto;
 }
-video{
+.movie-container video{
+  position: relative;
   width: 750px;
   cursor: pointer;
+  align-items: center;
   border-radius: 2px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 button{
   margin-top: 20px;
