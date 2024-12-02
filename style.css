@@ -30,3 +30,16 @@ button{
   align-items: center;
   cursor: pointer;
 }
+@media (max-width: 800px) {
+  header{
+    padding: 30px 70px 30px 70px;
+  }
+  h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .movie-container video{
+    max-width: 90%;
+    
+  }
+}
